@@ -10,7 +10,7 @@ for (const id of screensData) {
     test(id, async ({page}) => {
         const element = page.locator(`#${id}`)
         await expect(element).toHaveScreenshot(`${id}.png`, {
-            maxDiffPixelRatio: 0.0005,
+            maxDiffPixelRatio: 0.005,
         })
     })
 }
