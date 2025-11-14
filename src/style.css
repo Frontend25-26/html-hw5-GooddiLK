@@ -81,8 +81,10 @@ ul {
 }
 
 #experience {
+    box-sizing: border-box;
     color: var(--main-text-color);
     margin: 0 0 120px 0;
+    padding: 0;
 
     h2 {
         font-size: 48px;
@@ -93,6 +95,7 @@ ul {
 }
 
 .experience-main-container {
+    box-sizing: border-box;
     margin: 40px 0 0 0;
     gap: 32px;
     display: flex;
@@ -101,33 +104,39 @@ ul {
     .experience-title,
     .experience-location,
     .experience-dates {
+        box-sizing: border-box;
         line-height: 24px;
         font-weight: 400;
     }
 
     .experience-title {
+        box-sizing: border-box;
         font-size: 20px;
         margin-bottom: 8px;
     }
 
     .experience-location {
+        box-sizing: border-box;
         font-size: 16px;
         color: var(--work-exp-text-color);
     }
 
     .experience-dates {
+        box-sizing: border-box;
         font-size: 16px;
         margin: 16px 0;
     }
 
     p {
+        box-sizing: border-box;
+        margin: 16px 0 0 0;
         font-size: 16px;
         line-height: 24px;
-        margin: 16px 0 0 0;
         color: var(--work-exp-text-color);
     }
 
     img {
+        box-sizing: border-box;
         border-radius: 8px;
         object-fit: cover;
 
