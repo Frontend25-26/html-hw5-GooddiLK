@@ -15,6 +15,9 @@ body {
     flex-flow: column;
     align-items: center;
     margin: 0;
+
+    width: 1440px;
+    height: 1790px;
 }
 
 .Content {
@@ -26,7 +29,7 @@ header {
     box-sizing: border-box;
     height: 96px;
     padding: 24px 0;
-    margin: 0 0 120px;
+    margin: 0 0 120px; /*122*/
 
     display: flex;
     justify-content: space-between; /*Прижимаем к правому и левому краю*/
@@ -66,10 +69,6 @@ ul {
     line-height: 58px;
     color: var(--main-text-color);
     margin: 0 0 120px;
-
-    p {
-        margin: 0 0 40px;
-    }
 
     img {
         margin-top: 40px;
