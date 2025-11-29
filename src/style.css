@@ -17,7 +17,6 @@ body {
     margin: 0;
 
     width: 1440px;
-    height: 1790px;
 }
 
 .Content {
@@ -85,10 +84,12 @@ ul {
     margin: 0 0 120px 0;
     padding: 0;
 
+    /* height: 576px;*/
+
     h2 {
         font-size: 48px;
         line-height: 48px;
-        font-weight: 500;
+        font-weight: 400;
         margin: 0 0 40px;
     }
 }
@@ -99,6 +100,8 @@ ul {
     gap: 32px;
     display: flex;
     align-items: flex-start;
+
+    font-weight: 400;
 
     .experience-title,
     .experience-location,
